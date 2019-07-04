@@ -10,10 +10,6 @@ const LoginForm = () => (
         <input type="text" placeholder="Seu e-mail" />
         <input type="password" placeholder="Senha secreta" />
         <button type="submit"> Entrar </button>
-
-        {/* <input placeholder="Seu e-mail" />
-        <input placeholder="Senha secreta" />
-        <button type="submit"> Entrar </button> */}
       </Form>
     </Container>
   </Main>
