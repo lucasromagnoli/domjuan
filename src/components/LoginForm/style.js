@@ -5,7 +5,6 @@ export const Main = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: purple;
 `;
 
 export const Container = styled.div`
@@ -13,7 +12,6 @@ export const Container = styled.div`
   justify-content: center;
   width: 300px;
   height: 300px;
-  background: blue;
 `;
 
 export const Form = styled.form`
@@ -21,28 +19,28 @@ export const Form = styled.form`
   display: flex;
   flex-direction: column;
   padding: 10px;
-  background: green;
 
   img {
     align-self: center;
     height: 72px;
     width: 72px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
 
   input {
     border: 0;
     border-radius: 10px;
-    height: 40px;
+    height: 50px;
     padding: 10px;
     font-size: 16px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   button {
+    margin-top: 5px;
     border: 0;
     border-radius: 10px;
-    height: 40px;
+    height: 50px;
     background: #e5293e;
     font-size: 16px;
     color: #fff;
