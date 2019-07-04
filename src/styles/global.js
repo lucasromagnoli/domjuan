@@ -10,11 +10,14 @@ const GlobalStyle = createGlobalStyle`
     outline: 0;
   }
 
+  html, body, #root {
+    height: 100%;
+  }
+  
   body {
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
     font-family: sans-serif;
-    
     background: #282828 url(${fundo}) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
