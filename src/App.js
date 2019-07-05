@@ -1,12 +1,12 @@
 import React, { Fragment } from 'react';
 import GlobalStyle from './styles/global';
-import LoginForm from './components/LoginForm';
+import Routes from './routes';
 
 function App() {
   return (
     <Fragment>
       <GlobalStyle />
-      <LoginForm />
+      <Routes />
     </Fragment>
   );
 }

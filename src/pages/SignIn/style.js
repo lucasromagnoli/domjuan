@@ -27,6 +27,11 @@ export const Form = styled.form`
     margin-bottom: 25px;
   }
 
+  p {
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
   input {
     border: 0;
     border-radius: 10px;
